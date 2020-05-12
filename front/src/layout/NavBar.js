@@ -5,6 +5,8 @@ import { Link } from "react-router-dom";
 
 const backurl = "https://designyourownaccesbilitytest.herokuapp.com";
 
+//El logo no se ve en la página 
+
 const NavBar = (props) => {
   return (
     <nav className="navbar navbar-expand-lg fixed-top">
