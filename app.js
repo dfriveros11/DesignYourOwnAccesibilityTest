@@ -53,6 +53,8 @@ app.use(function (req, res, next) {
   next(createError(404));
 });
 
+//Utilizar el método de create react app para que cuando se haga F5 se redireccione al front https://create-react-app.dev/docs/deployment/
+
 // error handler
 app.use(function (err, req, res, next) {
   // set locals, only providing error in development
