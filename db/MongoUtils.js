@@ -77,6 +77,7 @@ function MongoUtils() {
     });
   };
 
+  //Es necesario incluir algún tipo de seguridad en esta request, para que los otros usuarios no puedan ver los test de los otros usuarios
   mu.getAllTestsUser = (id) => {
     const query = { user: id };
     return mu.connect().then((client) =>
