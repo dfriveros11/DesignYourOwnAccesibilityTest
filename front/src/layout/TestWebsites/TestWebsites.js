@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import ModalConsent from "./ModalConsent.js";
 
+//Manejar paginación para cuando se tengan muchos datos, ya que se van a ver demasiadas cards en caso de que se agreguen muchas páginas
 const TestWebsites = () => {
   const [currentTest, setCurrentTest] = useState({});
   const [tests, setTests] = useState([]);
