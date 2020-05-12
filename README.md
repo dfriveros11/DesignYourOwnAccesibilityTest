@@ -23,6 +23,8 @@ In order to deploy the page locally, you should have the following technologies 
 - [Nodejs](https://nodejs.org/es/download/)
 - [Mongodb](https://www.mongodb.com/download-center/community) or [Docker](https://docs.docker.com/install/linux/docker-ce/ubuntu/)
 
+<!-- Falta cómo correr el proceso de mongo local, ya sea instalando mongod como variable o abriendolo desde el proceso -->
+
 ## Deployment
 Enter in the root folder of the proyect and run the following commands: 
 
