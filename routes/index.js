@@ -33,6 +33,8 @@ router.post("/newAnswer", (req, res) => {
     .catch((err) => console.log(err));
 });
 
+
+//Proveer algún tipo de seguridad para que no todos los usuarios puedan ver los tests de los otros usuarios
 router.get("/getAllTestsUser/:id", function (req, res) {
   mu.getAllTestsUser(parseInt(req.params.id))
     .then((tests) => {
