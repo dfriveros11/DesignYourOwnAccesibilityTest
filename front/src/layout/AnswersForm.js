@@ -9,13 +9,25 @@ const AnswersForm = (props) => {
   //const [understand, setUnderstand] = useState(false);
 
   const handleSubmit = (evt) => {
-    var formData = new FormData(formRef.current);
+    // El uso del var ya no es recomendado :)
+    
+    const formData = new FormData(formRef.current);
+    //var formData = new FormData(formRef.current);
     let answers = [];
     // Display the key/value pairs
     let ans = "";
-    for (var q of test.radioQs) {
+    
+    
+    for (let q of test.radioQs) {
       ans = q.label;
     }
+
+    
+    //for (var q of test.radioQs) {
+    //  ans = q.label;
+    //}
+    
+    
     let count = 0;
     for (var pair of formData.values()) {
       if (count === 1) ans = "Could you carry out the instruction?";
