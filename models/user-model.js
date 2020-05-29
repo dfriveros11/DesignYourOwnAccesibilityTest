@@ -1,5 +1,6 @@
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
+//  John no aconseja usar Mongoose, pero no sè si sea necesario para Google :)
 
 const userSchema = new Schema({
   username: String,
