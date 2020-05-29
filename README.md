@@ -25,6 +25,8 @@ In order to deploy the page locally, you should have the following technologies 
 - [Yarn](https://classic.yarnpkg.com/en/docs/install/)
 - [Mongodb](https://www.mongodb.com/download-center/community) or [Docker](https://docs.docker.com/install/linux/docker-ce/ubuntu/)
 
+<!-- Falta cómo correr el proceso de mongo local, ya sea instalando mongod como variable o abriendolo desde el proceso -->
+
 ## Deployment
 
 Create a .env file in the root folder to set the variables that are needed to run the project. For example,
