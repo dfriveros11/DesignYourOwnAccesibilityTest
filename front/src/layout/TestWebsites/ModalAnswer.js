@@ -8,9 +8,14 @@ const ModalAnswer = (props) => {
     let answers = [];
     // Display the key/value pairs
     let ans = "";
-    for (var q of props.test.radioQs) {
+    // Cambio de var por let
+    
+    for (let q of props.test.radioQs) {
       ans = q.label;
     }
+    //for (var q of props.test.radioQs) {
+    //  ans = q.label;
+    //}
     let count = 0;
     for (var pair of formData.values()) {
       if (count === 1) ans = "Could you carry out the instruction?";
